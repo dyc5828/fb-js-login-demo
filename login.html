@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>FB JS Login</title>
+	<script src="//code.jquery.com/jquery-2.1.3.js"></script>
+	<script src="fb-sdk.js"></script>
+	<script src="fb.js"></script>
+<body>
+	<div id="fb-root"></div>
+	<fb:login-button
+		scope="public_profile,email"
+		onlogin="checkLoginState();">
+	</fb:login-button>
